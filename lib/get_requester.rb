@@ -16,7 +16,9 @@ class GetRequester
   end
   
   def parse_json
-    hash = {}
+    hash = []
     hash = JSON.parse(get_response_body)
+    hash
+  end
   
 end
