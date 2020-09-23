@@ -1,5 +1,5 @@
 # Write your code here
-require ''
+require 'net/http'
 
 
 class GetRequester
