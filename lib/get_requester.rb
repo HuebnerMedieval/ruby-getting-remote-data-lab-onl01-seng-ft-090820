@@ -6,6 +6,8 @@ class GetRequester
     @url = url
   end
   
-  def self.get_response_body
+  def get_response_body
+    
+  end
   
 end
